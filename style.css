@@ -1,5 +1,3 @@
-
-/* NAVBAR */
 body{
     max-width: 1607px;
     margin:0 auto;
@@ -240,3 +238,184 @@ footer p{
     padding-left: 90px;
 
 }
+@media (max-width: 768px) {
+
+   
+    body{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    
+    nav{
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.hero1{
+    min-height: 100vh;
+    background-image:
+        url(./images/microphone.png),
+        url(./images/hero-circle.png),
+        url(./images/hero-bg.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position:
+        center 20%,
+        center 40%,
+        center;
+    background-size:
+        220px,
+        350px,
+        cover;
+}
+
+.hero2{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero2 h1{
+    font-size: 2.8rem;
+    max-width: 900px;
+}
+
+
+.hero21{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+@media (max-width: 992px){
+
+    .hero2 h1{
+        font-size: 2.2rem;
+    }
+
+    .hero1{
+        background-size:
+            180px,
+            300px,
+            cover;
+    }
+}
+
+@media (max-width: 768px){
+
+    .hero{
+        min-height: auto;
+    }
+
+    .hero1{
+        min-height: auto;
+        padding: 80px 0;
+        background-position:
+            center 10%,
+            center 35%,
+            center;
+        background-size:
+            140px,
+            240px,
+            cover;
+    }
+
+    .hero2 h1{
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+
+    .hero21{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero21 .btn1,
+    .hero21 .btn2{
+        width: 90%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px){
+
+    .hero2 h1{
+        font-size: 1.5rem;
+    }
+
+    .hero1{
+        background-size:
+            110px,
+            200px,
+            cover;
+    }
+}
+   
+    .main{
+        grid-template-areas:
+            "micro"
+            "mobile"
+            "communi"
+            "exclue"
+            "rich";
+    }
+
+    .main > *{
+        display: block;
+        width: 100%;
+    }
+
+    
+    .epi12{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+    .host .host2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+    footer{
+        height: auto;
+        padding: 50px 20px;
+        background-size: cover;
+    }
+
+    footer h1{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .icon{
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 0;
+        align-items: center;
+    }
+}
+
