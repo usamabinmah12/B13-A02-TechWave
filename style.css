@@ -1,0 +1,76 @@
+
+/* NAVBAR */
+body{
+    max-width: 1607px;
+    margin:0 auto;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+nav h2{
+    color: white;
+}
+
+nav .h2{
+    color: fuchsia;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+nav button{
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom left, blue, yellow);
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+.hero{
+     width: 100%;
+     height:900px;
+     border:2px solid blue;
+     background-color: rgb(0, 0, 0);
+}
+.hero1{
+    
+    height: 900px;
+    background: url(./images/microphone.png),url(./images/hero-circle.png), url(./images/hero-bg.png);
+    background-position:  center,center,
+        bottom right;
+    /* background: url(./images/hero-circle.png); */
+    background-repeat:no-repeat, no-repeat , no-repeat;
+    
+}
+.hero2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.hero21{
+    display: flex;
+    gap: 20px;
+}
+.hero21 .btn1{
+    display: flex;
+    font-size: medium;
+    align-items: center;
+    background-image: linear-gradient(to bottom left, blue, yellow);
+    padding: 10px;
+}
+.hero21 .btn2{
+    display: flex;
+    font-size: medium;
+    align-items: center;
+     padding: 10px;
+}
+
